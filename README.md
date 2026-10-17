@@ -8,8 +8,10 @@ https://rkapp.ca/
 
 ## What’s included
 
-- Hero landing for mobile app consulting
-- Services, approach, and contact sections
+- Hero with iPhone duo background
+- Services across iOS, iPadOS, watchOS, Android, Wear OS
+- Store compliance support for legacy App Store / Play apps
+- Approach and contact sections
 - Mobile-friendly static HTML/CSS/JS
 
 ## Contact

@@ -120,7 +120,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 35%;
+  object-position: center 40%;
   transform: scale(1.05);
   animation: hero-drift 16s var(--ease) infinite alternate;
 }
@@ -256,6 +256,8 @@ a {
 }
 
 .service-list h3,
+.platform-grid h3,
+.compliance-list h3,
 .steps h3 {
   margin: 0 0 0.4rem;
   font-family: var(--font-display);
@@ -265,9 +267,50 @@ a {
 }
 
 .service-list p,
+.platform-grid p,
+.compliance-list p,
 .steps p {
   margin: 0;
   color: var(--muted);
+}
+
+.platforms,
+.compliance {
+  padding-top: 4rem;
+}
+
+.platform-visual {
+  margin: 0 0 2.4rem;
+  overflow: hidden;
+  border-radius: var(--radius);
+  max-height: 28rem;
+}
+
+.platform-visual img {
+  width: 100%;
+  height: 100%;
+  max-height: 28rem;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.platform-grid,
+.compliance-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem 1.75rem;
+}
+
+@media (min-width: 720px) {
+  .platform-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .compliance-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .approach {

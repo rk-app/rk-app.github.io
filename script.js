@@ -1,6 +1,8 @@
 (() => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const targets = document.querySelectorAll(".section, .service-list li, .steps li");
+  const targets = document.querySelectorAll(
+    ".section, .service-list li, .platform-grid li, .compliance-list li, .steps li"
+  );
   targets.forEach((el) => el.classList.add("reveal"));
 
   if (reduceMotion || !("IntersectionObserver" in window)) {
