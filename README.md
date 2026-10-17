@@ -1,10 +1,10 @@
 # RK App — Mobile App Consulting
 
-Primary GitHub Pages site for **RK App** (`rkapp.tech`).
+Primary GitHub Pages site for **RK App** (`rk-app.github.io`).
 
 ## Live URL
 
-https://rkapp.tech/
+https://rk-app.github.io/
 
 ## What’s included
 
